@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+/******************** Picasso Custom CSS ********************/
+
+/* Bootstrap 15 Column Hack for 5 Column Layout */
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media screen and (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media screen and (min-width: 992px) {
+    .col-md-15 {
+        width: 20% !important;
+        float: left !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+/* End Bootstrap 15 Column Hack for 5 Column Layout */
+
+#wrapper {
+	width: 50%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+p {
+	font-family:Calibri, Verdana, Geneva, sans-serif;
+	font-size:14px;
+	line-height:24px;
+}
+.headerBkg {
+	background: #CCEFF4;
+}
+.darkBlue {
+	background-color:#70D5F2;
+	padding-left:95px;
+	margin-left:-15px;
+}
+
+.topMenu ul li {
+	display: block;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	background-color: orange;
+	color: #fff;
+	font-size:12px;
+}
+.headerText {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	padding-bottom: 20px;
+	line-height: 1.3;
+}
+.flRight {
+	float: right;
+}
+
+.flLeft {
+	float: left;
+}
+.centerAlignText {
+	text-align: center;
+}
+.articleBorder {
+	border: 1px solid #b7b7b7;
+	border-radius: 1em;
+	padding: .7em;
+	margin-bottom: 10px;
+}
+.boxShadow {
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.50);
+}
+.clearLRPadding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.clearLRMargin {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+/* Main Menu */
+.mainMenu ul li {
+	display: inline-block;
+	float: left;
+	padding: 5px 5px;
+	
+}
+
+.mainMenu ul li a {
+	color:#fff;
+	color: #fff;
+	font-size: 18px;
+	border-right: 2px solid #fff;
+	padding-right:10px;	
+}
+
+.mainMenu ul li:last-child a {
+	border-right: 0px solid #fff;
+}
+	
+
+.mainMenu {
+	background: linear-gradient(to bottom, #40575e 0%, #127d9a 100%);
+	
+}
+.socialIcons {
+	float: left;	
+	padding:10px 10px 10px 0;
+}
+
+.quicklinkPadding {
+    padding:15px 10px;
+    margin-left: 50px;
+}
+
+footer {
+	background-color:#A3E7F2;
+	color:#006699;	
+	font-size:14px;
+	line-height:1.5;
+	text-align:right;
+	padding: 15px;
+}
+
